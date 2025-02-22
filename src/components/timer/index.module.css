@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    color: white;
+    margin: 0px;
+}
+p{
+    color: white;
+    background: transparent;
+    font-size: 26px;
+    font-weight: 500;
+}
+.setTimecase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #34344A;
+    width: 701px;
+    height: 60px;
+    padding: 24px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 20px;
+    margin-top: 22px;
+}
+.setTimecase.completed{
+    background-color: rgb(243, 243, 7);
+    display: flex;
+    justify-content: center;
+}
+.inputCase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 219px;
+    height: 56px;
+    background: transparent;
+}
+.input{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    width: 47px;
+    height: 52px;
+    font-size: 42px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+span{
+    color: white;
+    font-size: 42px;
+    background: transparent;
+}
+.btn{
+    background-color: rgb(243, 243, 7);
+    color: black;
+    height: 36px;
+    width: 70px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(226, 226, 6);
+}
+.btn:active{
+    background-color: rgb(159, 159, 4);
+}
+h4{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    height: 40px;
+    width: 260px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.timesUpText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
